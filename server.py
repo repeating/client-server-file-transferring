@@ -25,7 +25,7 @@ while True:
     filename = filename.decode()
     
     # check if there are files with the same name
-    write_name = filename
+	write_name = 'received files/' + filename
     if os.path.exists(write_name): 
         i = 1
         while True:
